@@ -7,3 +7,8 @@ Print a message"""
 
 name = input("What is your name?")
 print("Hello {}".format(name)) #prints message with user's name.
+
+#You can also perform this code as follows:
+
+name = input("What is your name?")
+print("Hello " + name) 
