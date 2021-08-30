@@ -37,3 +37,25 @@ x = 6
 y = 5
 z = (y <= x)
 print(not z) #prints the opposite of res, i.e., changes True to False or False to True. 
+
+"""Variable Substitution
+
+You can substitute variables in mathematical expressions"""
+
+#Example
+
+x = y = 10
+z = 2 * x + y 
+print(z) 
+
+x = 42
+b = 15 < (x / 2) < 25
+print(b) #prints True
+print(type(b)) #prints type boolean
+
+x = 42
+y = str(x)
+x *= 2 #doubles the value of x (same as x = x * 2)
+y *= 2 #doubles the value of y (same as y = y * 2)
+print(x)
+print(y)
