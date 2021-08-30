@@ -59,3 +59,12 @@ x *= 2 #doubles the value of x (same as x = x * 2)
 y *= 2 #doubles the value of y (same as y = y * 2)
 print(x)
 print(y)
+
+"""Combining Variables"""
+
+fav_movie = "Justin Bieber's 'Believe'"
+fav_singer = "Justin Bieber"
+
+favs = "Your favorite movie is " + fav_movie + " and your favorite singer is " + fav_singer
+print(favs)
+
