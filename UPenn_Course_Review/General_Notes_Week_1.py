@@ -68,3 +68,13 @@ fav_singer = "Justin Bieber"
 favs = "Your favorite movie is " + fav_movie + " and your favorite singer is " + fav_singer
 print(favs)
 
+"""Getting User Input"""
+
+fav_food = input('What\'s your favorite food?')
+fav_movie = input('What\'s your favoriete movie?')
+
+favorites = "Your favorite food is {} and your favorite movie is {}".format(fav_food, fav_movie)
+#the {} are placeholders for the variables provided in the order in .format() field. 
+print(favorites)
+
+
