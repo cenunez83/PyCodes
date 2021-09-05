@@ -83,15 +83,19 @@ print(favorites)
 if...elif...else allows us to make decisions and execute "code blocks" (groups of statements) based on logical conditions.
 Code blocks are indented four spaces (a single tab). """
 
-#if a condition is True, execute statements in body of if
+"""if a condition is True, execute statements in body of if"""
 
 x = int(input("2 + 2 ="))
 if x != 4:
     print("...try again!")
 
-#if a condition is True, execute statments in body of if, else (otherwise), execute statments in body of else
+"""if a condition is True, execute statments in body of if, else (otherwise), execute statments in body of else."""
 x = int(input("2 + 2 ="))
 if x == 4:
     print("Correct!")
 else:
     print("...try again")
+
+"""if condition is True, execute statements in body of if,
+elif (else if) another condition is True, execute statments in body of elif,
+else (otherwise), execute statement in body of else."""
