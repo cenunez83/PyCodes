@@ -78,3 +78,20 @@ favorites = "Your favorite food is {} and your favorite movie is {}".format(fav_
 print(favorites)
 
 
+"""Flow Control: Conditionals 
+
+if...elif...else allows us to make decisions and execute "code blocks" (groups of statements) based on logical conditions.
+Code blocks are indented four spaces (a single tab). """
+
+#if a condition is True, execute statements in body of if
+
+x = int(input("2 + 2 ="))
+if x != 4:
+    print("...try again!")
+
+#if a condition is True, execute statments in body of if, else (otherwise), execute statments in body of else
+x = int(input("2 + 2 ="))
+if x == 4:
+    print("Correct!")
+else:
+    print("...try again")
