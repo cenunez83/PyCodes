@@ -67,3 +67,4 @@ print(f"I usually have three meals a day. But today I didn't have {missed_meal}.
 meals = ['breakfast', 'lunch', 'dinner']
 meals.remove('dinner')
 print(meals)
+#remove() only removes the first occurrence of the specified value
